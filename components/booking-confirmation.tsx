@@ -31,7 +31,7 @@ export function BookingConfirmation({ bookingData }: BookingConfirmationProps) {
   }
 
   const handleTrackBus = () => {
-    window.location.href = `/track-bus?booking=${bookingData.bookingId}`
+    window.location.href = /track-bus?booking=${bookingData.bookingId}
   }
 
   return (
