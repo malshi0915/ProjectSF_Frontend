@@ -90,7 +90,7 @@ export function AdminStats() {
                   </div>
                   <div className="text-right">
                     <p className="font-medium text-sm">₹{booking.amount}</p>
-                    <p className={`text-xs ${booking.status === "confirmed" ? "text-green-600" : "text-yellow-600"}`}>
+                    <p className={text-xs ${booking.status === "confirmed" ? "text-green-600" : "text-yellow-600"}}>
                       {booking.status}
                     </p>
                   </div>
